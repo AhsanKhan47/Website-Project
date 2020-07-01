@@ -29,4 +29,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ Ahsans-first-website.surge.sh/ --token ${{ secrets.WEBSITE_TOKEN }}
+      run: surge ./ http://www.ahsans-first-website.surge.sh/ --token ${{ secrets.WEBSITE_TOKEN }}
